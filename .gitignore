@@ -1,0 +1,54 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+.env/
+
+# Файлы PyCharm
+.idea/
+*.iml
+.DS_Store
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Секреты (ВАЖНО!)
+.env
+config_local.py
+*.secret
+
+# Allure отчёты
+allure-results/
+allure-report/
+
+# Временные файлы тестов
+temp_*.txt
+*.pdf
+
+# Файлы отчётов
+report.html
+results.xml
+
+# Файлы операционной системы
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# VS Code (если вдруг переключитесь)
+.vscode/
+
+# Файлы с паролями и ключами
+*.key
+*.pem
+*.cert
